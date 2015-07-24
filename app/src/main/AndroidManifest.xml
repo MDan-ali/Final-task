@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.danish.healthmaster" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BMI"
+            android:label="@string/title_activity_bmi" >
+        </activity>
+        <activity
+            android:name=".pedometer"
+            android:label="@string/title_activity_pedometer" >
+        </activity>
+        <activity
+            android:name=".workouts"
+            android:label="@string/title_activity_workouts" >
+        </activity>
+        <activity
+            android:name=".medidation"
+            android:label="@string/title_activity_medidation" >
+        </activity>
+        <activity
+            android:name=".bodyfat"
+            android:label="@string/title_activity_bodyfat" >
+        </activity>
+        <activity
+            android:name=".musicList"
+            android:label="@string/title_activity_music_list" >
+        </activity>
+        <activity
+            android:name=".GPS"
+            android:label="@string/title_activity_gps" >
+        </activity>
+    </application>
+
+</manifest>

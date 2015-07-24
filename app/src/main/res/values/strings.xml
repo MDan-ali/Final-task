@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Health Master</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bmi">BMI</string>
+    <string name="title_activity_pedometer">pedometer</string>
+    <string name="title_activity_workouts">workouts</string>
+    <string name="title_activity_medidation">medidation</string>
+    <string name="title_activity_bodyfat">bodyfat</string>
+    <string name="title_activity_music_list">musicList</string>
+    <string name="title_activity_yoga">yoga</string>
+    <string name="title_activity_gps">GPS</string>
+</resources>
